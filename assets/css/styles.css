@@ -821,6 +821,7 @@ html body .btn.btn-go-top {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
+    font-size: 42px;
     line-height: 18px;
 }
 
@@ -1090,6 +1091,9 @@ line-height: 20px;
         line-height: 25px;
     }
 
+    .page-top-image {
+        height: 500px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1132,7 +1136,7 @@ line-height: 20px;
     }
 
     .read-more .item-title {
-line-height: 21px;        
+        line-height: 21px;        
     }
 
     .comment-item {
@@ -1141,6 +1145,16 @@ line-height: 21px;
 
     .comment-item .comment-text {
         font-size: 15px;
+    }
+
+    .page-top-image {
+        height: 500px;
+    }
+
+    .card-item .card-title {
+        font-size: 22px;
+        line-height: 25px;
+        height: 75px;
     }
 }
 
@@ -1236,6 +1250,21 @@ line-height: 21px;
 
     .comments-list--lvl-2 {
         padding-left: 20px;
+    }
+
+    .page-top-image {
+        height: 500px;
+    }
+
+    .card-item .card-title {
+        font-size: 22px;
+        line-height: 25px;
+        height: 75px;
+    }
+
+    .simple-page .block-title {
+        font-size: 28px;
+        line-height: 35px;
     }
 }
 
@@ -1344,6 +1373,29 @@ line-height: 21px;
 
     .comments-list--lvl-2 {
         padding-left: 20px;
+    }
+
+    .page-top-image {
+        height: 500px;
+    }
+
+    .card-item .card-title {
+        font-size: 22px;
+        line-height: 25px;
+        height: 75px;
+    }
+
+    .simple-page .block-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .card-item .name a {
+        font-size: 12px;
+    }
+
+    .card-item-horizontal .img-container {
+        margin-bottom: 20px;
     }
 }
 
@@ -1491,4 +1543,58 @@ line-height: 21px;
         padding-left: 15px;
     }
 
+    .page-top-image {
+        height: 500px;
+    }
+
+    .card-item .card-title {
+        font-size: 22px;
+        line-height: 25px;
+        height: 75px;
+    }
+
+    .simple-page .block-title {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .card-item .name a {
+        font-size: 12px;
+    }
+
+    .hotels-page .article-title {
+        line-height: 18px;
+    }
+
+    .simple-page .article-title {
+        font-size: 30px;
+    }
+
+    .hotels-page .article-title span {
+        font-size: 7.8pt;
+    }
+
+    .blogs-page .article-title span {
+        font-size: 8.1pt;
+    }
+
+    .news-page .article-title span {
+        font-size: 7.15pt;
+    }
+
+    .reviews-page .article-title span {
+        font-size: 7pt;
+    }
+
+    .ways-page .article-title span {
+        font-size: 6.45pt;
+    }
+
+    .card-item-horizontal .img-container {
+        margin-bottom: 20px;
+    }
+
+    .card-item-horizontal .date, .card-item-horizontal .country {
+        display: block;
+    }
 }
